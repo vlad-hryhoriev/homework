@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: linear-gradient(to bottom, #ee82ee, #0800ff);
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    
+    form {
+      width: 450px;
+      background: rgb(96, 75, 201);
+      border-radius: 15px;
+      text-align: center;
+      border: 1px solid rgb(46, 24, 55);
+    }
+    
+    .form-header {
+      background: #5832c9;
+      padding: 15px;
+      border-radius: 15px 15px 0 0;
+    }
+    
+    h1 {
+      margin: 0;
+      font-family: Bradley Hand, sans-serif;
+    }
+
+    .form-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    
+    input {
+      font-size: 16px;
+      width: 90%;
+      margin: 10px 0;
+      padding: 10px;
+      border: none;
+      border-radius: 7px;
+    }
+    
+    .checkbox {
+      width: auto;
+      display: inline-block;
+      align-items: start;
+      margin: 0 5px;
+      font-family: Verdana;
+    }
+    
+    .button-container {
+      width: 100%;
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 10px;
+    }
+    
+    button {
+      background: #40be1d;
+      color: white;
+      border: none;
+      border-radius: 7px;
+      padding: 10px;
+      font-size: 18px;
+      cursor: pointer;
+      font-family: Bradley Hand;
+    }
+  </style>
+</head>
+<body>
+  <form>
+    <div class="form-header">
+      <h1>Registration Form</h1>
+    </div>
+    <div class="form-body">
+      <input type="text" placeholder="First name">
+      <input type="text" placeholder="Last name">
+      <input type="email" placeholder="Email">
+      <input type="password" placeholder="Password">
+      <p>
+        <input type="checkbox" class="checkbox">
+        <span>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, debitis.
+        </span>
+      </p>
+      <p>
+        <input type="checkbox" class="checkbox">
+        <span>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, debitis.
+        </span>
+      </p>
+      <div class="button-container">
+        <button type="submit">Register</button>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
